@@ -1,8 +1,5 @@
 # machine-translation-transformer-model
 
-
-Got it! Here’s a streamlined README template without any code, focusing on the project overview, dataset, and other essential details.
-
 English to Punjabi Machine Translation Transformer Model
 Overview
 This repository contains resources for an English-to-Punjabi machine translation model. The model leverages the ai4bharat/IndicNER tokenizer for Punjabi sentences and the bert-base-uncased tokenizer for English sentences, built using TensorFlow and Hugging Face's Transformers library.
@@ -11,11 +8,7 @@ Table of Contents
 Installation
 Dataset
 Training
-Evaluation
-Deployment
-Acknowledgments
-License
-Installation
+
 Clone the repository:
 
 bash
@@ -52,11 +45,7 @@ bert-base-uncased for English sentences.
 ai4bharat/IndicNER for Punjabi sentences.
 Ensure to split the dataset into training and testing sets appropriately, maintaining a good balance between the two for effective training and evaluation.
 
-Evaluation
-Evaluate the model's performance on a separate test dataset. Track metrics such as accuracy, loss, and any other relevant metrics to assess the model's performance.
-
-Deployment
-Will soon deploy the model for usage
+The model is showing me the error will try to fix it and out and will deploy it as soon as possible.
 
 Acknowledgments
 Tokenizers: ai4bharat/IndicNER for Punjabi language support and bert-base-uncased for English.
