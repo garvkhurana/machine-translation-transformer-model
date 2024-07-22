@@ -39,15 +39,13 @@ Hello	ਸਤ ਸ੍ਰੀ ਅਕਾਲ
 How are you?	ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ?
 ...	...
 Training
-The model uses two separate tokenizers:
+The model uses the tokenizer:
+Helsinki-NLP/opus-mt-pa-en
 
-bert-base-uncased for English sentences.
-ai4bharat/IndicNER for Punjabi sentences.
 Ensure to split the dataset into training and testing sets appropriately, maintaining a good balance between the two for effective training and evaluation.
 
-The model is showing me the error will try to fix it and out and will deploy it as soon as possible.
 
 Acknowledgments
-Tokenizers: ai4bharat/IndicNER for Punjabi language support and bert-base-uncased for English.
-Frameworks: TensorFlow and Hugging Face's Transformers library for providing the necessary tools to build and train the model.
+Tokenizers: Helsinki-NLP/opus-mt-pa-en 
+Frameworks:Pytorch and Hugging Face's Transformers library for providing the necessary tools to build and train the model.
 Dataset Providers: The sources of the English-Punjabi translation data.
